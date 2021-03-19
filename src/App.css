@@ -1,0 +1,163 @@
+.App{
+  width: 100%;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: rgb(238, 234, 234);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .container {
+    padding: 2px 16px;
+  }
+  img{
+      width: 30%;
+  }
+  .main-card{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .nav{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  input[type=text]{
+    width: 70%;
+    border: none;
+    border: 1px solid black;
+    margin-right: 20px;
+    border-radius: 20px;
+    outline: none;
+    padding: 8px;
+  }
+  .search-bar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .btn-search{
+    background: url('search.png');
+    background-size: 90%;
+    padding: 8px;
+    background-repeat: no-repeat;
+    height: 25px;
+    width: 25px;
+    border: none;
+    outline: none;
+  }
+  .btn-search:hover{
+    cursor: pointer;
+  }
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    margin-left: 10px;
+  }
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 22px;
+    width: 24px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: rgb(43, 42, 42);
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px rgb(43, 42, 42);
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  .dark-mode{
+    background-color: rgb(39, 38, 38);
+    color: rgb(219, 219, 219);
+  }
+  .dark-mode-card{
+    background-color: rgb(218, 145, 240);
+    color: black;
+  }
+  .dark-mode-card .container a{
+    color: black;
+  }
+  .dark-mode .nav .search-bar .btn-search{
+    background: url('search-white.png') left;
+    background-size: 100%;
+    padding: 10px;
+    background-repeat: no-repeat;
+    height: 25px;
+    width: 25px;
+    border: none;
+    outline: none;
+  }
+  @media only screen and (max-width: 1070px) {
+    .card{
+      width: 50%;
+    }
+  }
+  @media only screen and (max-width: 880px) {
+    .card{
+      width: 70%;
+    }
+  }
+  @media only screen and (max-width: 660px) {
+    .card{
+      width: 90%;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .card{
+      width: 100%;
+    }
+  }
+  
