@@ -144,6 +144,9 @@
     .card{
       width: 50%;
     }
+    .switch {
+      width: 68px;
+    }
   }
   @media only screen and (max-width: 880px) {
     .card{
@@ -154,10 +157,16 @@
     .card{
       width: 90%;
     }
+    .switch {
+      width: 74px;
+    }
   }
   @media only screen and (max-width: 400px) {
     .card{
       width: 100%;
+    }
+    .switch {
+      width: 80px;
     }
   }
   
