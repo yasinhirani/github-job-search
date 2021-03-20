@@ -42,7 +42,7 @@ function App() {
           <input
             type="text"
             value={search}
-            placeholder="search jobs"
+            placeholder="Search Jobs"
             onChange={(e) => {
               setSearch(e.target.value);
               // console.log(search);
@@ -51,7 +51,6 @@ function App() {
           <button className="btn-search" type="submit"></button>
         </form>
         </div>
-        {darkmode? "Light" : 'Dark'}
         <label className="switch">
         <input type="checkbox" checked={darkmode} onChange={() => {setDarkmode(!darkmode)}}/>
         <span className="slider round"></span>
@@ -69,6 +68,7 @@ function App() {
               cmpsite={val.company_url}
               url={val.url}
               mode={darkmode}
+              cmpname={val.company}
             />
           );
         })}

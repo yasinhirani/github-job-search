@@ -6,7 +6,7 @@
     transition: 0.3s;
     width: 40%;
     margin-top: 40px;
-    padding: 10px;
+    padding: 20px;
     background-color: rgb(238, 234, 234);
     border-radius: 10px;
     display: flex;
@@ -38,7 +38,7 @@
     width: 70%;
     border: none;
     border: 1px solid black;
-    margin-right: 20px;
+    margin-right: 10px;
     border-radius: 20px;
     outline: none;
     padding: 8px;
@@ -139,6 +139,26 @@
     width: 25px;
     border: none;
     outline: none;
+  }
+  .container a{
+    color: black;
+  }
+  .container button{
+    padding: 10px;
+    outline: none;
+    border: none;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+  .dark-mode-card .container button{
+    background-color: transparent;
+  }
+  .container button:hover{
+    cursor: pointer;
+  }
+  .container button a {
+    text-decoration: none;
+    color: black;
   }
   @media only screen and (max-width: 1070px) {
     .card{
