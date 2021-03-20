@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/github-job-search/static/css/main.feede2f2.chunk.css",
-    "main.js": "/github-job-search/static/js/main.13ea0214.chunk.js",
-    "main.js.map": "/github-job-search/static/js/main.13ea0214.chunk.js.map",
+    "main.css": "/github-job-search/static/css/main.b1a6d647.chunk.css",
+    "main.js": "/github-job-search/static/js/main.f631cd16.chunk.js",
+    "main.js.map": "/github-job-search/static/js/main.f631cd16.chunk.js.map",
     "runtime-main.js": "/github-job-search/static/js/runtime-main.f016a352.js",
     "runtime-main.js.map": "/github-job-search/static/js/runtime-main.f016a352.js.map",
     "static/js/2.ff9e05ca.chunk.js": "/github-job-search/static/js/2.ff9e05ca.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.f9dd1e5c.chunk.js": "/github-job-search/static/js/3.f9dd1e5c.chunk.js",
     "static/js/3.f9dd1e5c.chunk.js.map": "/github-job-search/static/js/3.f9dd1e5c.chunk.js.map",
     "index.html": "/github-job-search/index.html",
-    "static/css/main.feede2f2.chunk.css.map": "/github-job-search/static/css/main.feede2f2.chunk.css.map",
+    "static/css/main.b1a6d647.chunk.css.map": "/github-job-search/static/css/main.b1a6d647.chunk.css.map",
     "static/js/2.ff9e05ca.chunk.js.LICENSE.txt": "/github-job-search/static/js/2.ff9e05ca.chunk.js.LICENSE.txt",
     "static/media/App.css": "/github-job-search/static/media/search.f2d70afd.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f016a352.js",
     "static/js/2.ff9e05ca.chunk.js",
-    "static/css/main.feede2f2.chunk.css",
-    "static/js/main.13ea0214.chunk.js"
+    "static/css/main.b1a6d647.chunk.css",
+    "static/js/main.f631cd16.chunk.js"
   ]
 }
